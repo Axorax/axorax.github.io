@@ -18,11 +18,12 @@ function axoSideDonateChangeBottom(i) {
 axoSideDonateBadgeExec();
 
 function axoSideDonateBadgeExec() {
-    axoSideDonate.className = 'sideDonate';
+axoSideDonate.className = 'sideDonate';
 axoSideDonateIcon.className = 'sideDonateIcon';
 axoSideDonateBtn.href = 'https://patreon.com/axorax';
 axoSideDonateBtn.target = '_blank';
 axoSideDonateImg.style.height = '30px';
+axoSideDonate.id = 'axoSideDonateMainDivContainer';
 axoSideDonateImg.alt = 'Donate';
 axoSideDonateIcon.style.height = '3.5rem';
 axoSideDonateContent.style.cssText = `background:${axoSideDonateBG};border:1.5px solid ${axoSideDonateBORDER};border-left:none;border-right:none;padding:.4rem.5rem;color:${axoSideDonateColor};text-decoration:none;transform:translate(100%);white-space:nowrap;padding-top: 7px`;
