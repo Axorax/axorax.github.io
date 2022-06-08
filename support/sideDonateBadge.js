@@ -10,8 +10,15 @@ const axoSideDonateIcon = document.createElement('div');
 const axoSideDonateImg = document.createElement('img');
 const axoSideDonateContent = document.createElement('div');
 
+function axoSideDonateChangeBottom(i) {
+    axoSideDonateBottom = i;
+    axoSideDonateBadgeExec();
+}
 
-axoSideDonate.className = 'sideDonate';
+axoSideDonateBadgeExec();
+
+function axoSideDonateBadgeExec() {
+    axoSideDonate.className = 'sideDonate';
 axoSideDonateIcon.className = 'sideDonateIcon';
 axoSideDonateBtn.href = 'https://patreon.com/axorax';
 axoSideDonateBtn.target = '_blank';
@@ -41,3 +48,4 @@ axoSideDonateIcon.appendChild(axoSideDonateImg);
 axoSideDonate.appendChild(axoSideDonateContent);
 
 document.body.appendChild(axoSideDonateBtn);
+}
