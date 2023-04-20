@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+    color-scheme: dark;
+    --font: "Josefin Sans", sans-serif;
+    --body-bg: #111111;
+    --nav-bg: #282828a7;
+    --nav-border: 1px solid #343434;
+    --nav-img-radius: 50%;
+    --text: #fff;
+    --primary-btn-color: #fff;
+    --secondary-btn-color: #dadada;
+    --h1-gradient: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    --box-bg: #000000e4;
+    --box-title: #b0b0b0;
+    --box-title-border: 1.5px solid #363636;
+    --box-big-bg: #000000b0;
+    --box-big-bg-2: linear-gradient(
+      to left,
+      transparent,
+      #8a2387,
+      #e94057,
+      #f27121
+    );
+    --primary-btn-bg: #2348ffce;
+    --primary-btn-bg-hover: #182aefce;
+    --secondary-btn-bg: #2c2c2c;
+    --secondary-btn-bg-hover: #515151a7;
+    --popup-color: #dadada;
+    --popup-bg: #2c2c2c;
+}
